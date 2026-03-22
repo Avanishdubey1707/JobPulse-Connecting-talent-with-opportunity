@@ -2,13 +2,12 @@ import React from 'react';
 import './App.css';
 import { MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
+import HomePage from './Pages/HomePages';
 
 function App() {
   return (
     <MantineProvider>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+     <HomePage/>
     </MantineProvider>
   );
 }
