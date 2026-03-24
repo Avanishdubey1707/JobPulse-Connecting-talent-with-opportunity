@@ -6,11 +6,12 @@ const Header = () =>{
            <IconAsset className="h-10 w-10" stroke={1.25}/>
           Jobpulse
        </div>
-       <div>
+       <div className="h-10 w-10">
         links
        </div>
        <div>
         profile
+
        </div>
     </div>
 }
